@@ -1,0 +1,87 @@
+/* Comments */
+
+html {
+  font-family: 'Raleway', sans-serif;
+  margin-top: 10px;
+  margin-bottom: 70px;    
+}
+
+body {
+  background: #000428; 
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  
+  background: linear-gradient(to right, #004e92, #100478);    
+}
+
+#survey-form {
+  background: #70e1f5;  
+  background: -webkit-linear-gradient(to left, #ffd194, #70e1f5); 
+  background: linear-gradient(to left, #191fff, #70e1f5); 
+  text-align: center;
+  border: solid;    
+  border-color: black;
+  border-radius: 50px;
+  margin: auto;
+  max-width: 30em;    
+  height: auto;    
+}
+
+fieldset {
+  display: inline-block;
+  text-align: left;
+  margin: auto;
+  border: none;
+}
+
+#title {
+  color: lightcyan;
+  text-align: center;
+  font-size: 3.125em; 
+}
+
+#description {
+  font-size: 1em;
+  font-weight: 900;    
+}
+
+#name-label, #email-label, #number-label {
+  text-align: left;
+  margin: auto;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+input {
+  max-width: 11.5em;    
+}
+
+#number {
+  max-width: 2.5em;
+}
+
+#dropdown {
+  max-width: 12.5em;
+}
+
+textarea {
+  font-size: 1.1em;  
+}
+
+#submit {
+  width: 6em;
+  height: 3em;    
+  margin: 0 0 0 11em;
+    background-color: #aff1ff;
+  border-radius: 12px;
+  border: 2px solid;    
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 0.8em;
+  }
+  #description {
+    font-size: 1em; 
+  }
+  #submit {
+    margin: 0 0 0 6em;
+  }    
+} 

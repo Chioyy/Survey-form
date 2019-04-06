@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="chioy games survey" />
+  <meta name="keywords" content="chioy games survey questions" />
+  <meta name="author" content="Chioy" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="stylesheet" href="styles/main.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Maven+Pro|Raleway|Source+Code+Pro" rel="stylesheet"> 
+  <title>Chioy games survey</title>
+</head>
+
+ <body>
+  <header>  
+    <h1 id="title">Survey</h1>
+  </header>
+  
+   <div>
+    <form id="survey-form">
+      <fieldset>
+        <p id="description">Let us know about your experience with our games</p><br>
+          <label id="name-label" for="name">Name: </label> 
+          <input autofocus type="text" id="name" maxlenght="15" placeholder="Name" name="name" required><br><br> 
+          <label id="email-label" for="email">Email:&nbsp;</label>
+          <input type="email" id="email" maxlenght="25" placeholder="email@chioy.com" name="email" required><br><br><br>
+          <label id="number-label" for="number" >How many Chioy games have you played?&nbsp;&nbsp;</label>
+          <input type="number" id="number" min="0" max="20" placeholder="2" name="number">
+          <h4>Favorite game</h4>
+          <select id="dropdown" name="favourite"> 
+          <option value="Caldera">Caldera - Board game</option>
+          <option value="Cay of Calamari">Cay of Calamari - PC game</option>
+          <option value="Chi">Chi - Playing card game</option>
+          <option value="Chicraft">Chicraft - Card game</option>
+          <option value="Chiells">Chiells - Board game</option>
+          <option value="Ciel">Ciel - Board game</option>
+          <option value="Color Turret Defense">Color Turret Defense - PC game</option> 
+          <option value="Creation">Creation - Card game</option>
+          <option value="Highfall">Highfall - Card game</option>
+          <option value="Machine">Machine - Board game</option>
+          <option value="RO Trivia">RO Trivia - PC game</option>
+          <option value="Sochi">Sochi - Playing card game</option>
+          <option value="Verge Flow">Verge Flow - Board game</option>
+        </select> 
+        <h4>Which game should be updated next?</h4>
+          <input type="radio" name="radios" value="radio1">Caldera<br>
+          <input type="radio" name="radios" value="radio2">Cay of Calamari<br>
+          <input type="radio" name="radios" value="radio3">Chicraft<br>
+          <input type="radio" name="radios" value="radio4">Ciel<br>
+          <input type="radio" name="radios" value="radio5">Creation<br>
+        <h4>Game genres I would like to see a new game?</h4>
+          <input type="checkbox" name="checks" value="check1">Action<br>
+          <input type="checkbox" name="checks" value="check2">Adventure<br>
+          <input type="checkbox" name="checks" value="check3">Puzzle<br>
+          <input type="checkbox" name="checks" value="check4">Role-playing<br>
+          <input type="checkbox" name="checks" value="check5">Simulation<br>
+          <input type="checkbox" name="checks" value="check6">Strategy<br>
+          <input type="checkbox" name="checks" value="check7">Sports<br><br>
+        <textarea name="message" rows="5" cols="30">Leave feedback here!
+        </textarea><br><br>
+        <input type="submit" value="Submit" id="submit"><br><br>  
+      </fieldset>
+    </form>
+  </div>
+
+  <footer>
+   
+  </footer> 
+</body>
+</html>
